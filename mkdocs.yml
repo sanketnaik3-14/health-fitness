@@ -1,0 +1,54 @@
+site_name: INFS Course Notes
+site_author: Sanket Naik
+nav:
+  - 'Home': 'index.md'
+  - 'BASICS OF FOOD AND NUTRITION':
+    - 'Introduction to Health And Nutrition': 'chapter-1.md'
+    - 'Obesity And Lifestyle Disorders': 'chapter-2.md'
+    - 'Nutrition Pyramid': 'chapter3.md'
+    - 'Calories and Energy Balance': 'chapter19.md'
+    - 'Introduction to Macronutrients': 'chapter20.md'
+    - 'Introduction to Micronutrients': 'chapter21.md'
+    - 'Introduction to Quantified Nutrition': 'chapter22.md'
+    - 'Food Relationship and Your Health': 'chapter23.md'
+  - 'INTRODUCTION TO EXERCISE SCIENCE':
+    - 'Resistance Training': 'chapter4.md'
+    - 'Training Techniques': 'chapter5.md'
+    - 'Program Design': 'chapter19.md'
+  - 'INTRODUCTION TO RESISTANCE TRAINING':
+    - 'Dietary Approaches': 'chapter6.md'
+    - 'Supplements': 'chapter7.md'
+    - 'Fat Loss': 'chapter10.md'
+    - 'Weight Management': 'chapter11.md'
+    - 'Meal Planning': 'chapter12.md'
+  - 'BASICS OF ANATOMY AND PHYSIOLOGY':
+    - 'Lifestyle Disorders': 'chapter8.md'
+    - 'Special Populations': 'chapter9.md'
+  - 'INTRODUCTION TO THE GYM':
+    - 'Fitness Testing': 'chapter13.md'
+    - 'Health Parameters': 'chapter14.md'
+    - 'Client Assessment': 'chapter15.md'
+    - 'Goal Setting': 'chapter16.md'
+    - 'Program Implementation': 'chapter17.md'
+    - 'Exercise Sessions': 'chapter18.md'
+
+
+theme:
+  name: material
+  palette:
+    # Light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    # Dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  features:
+    - navigation.top
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - content.code.copy
