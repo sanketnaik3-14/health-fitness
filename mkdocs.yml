@@ -1,11 +1,10 @@
-site_name: INFS Course Notes
+site_name: Health & Fitness
 site_author: Sanket Naik
 nav:
-  - 'Home': 'index.md'
   - 'BASICS OF FOOD AND NUTRITION':
-    - 'Introduction to Health And Nutrition': 'chapter-1.md'
+    - 'Introduction to Health And Nutrition': 'index.md'
     - 'Obesity And Lifestyle Disorders': 'chapter-2.md'
-    - 'Nutrition Pyramid': 'chapter3.md'
+    - 'Nutrition Pyramid': 'chapter-3.md'
     - 'Calories and Energy Balance': 'chapter19.md'
     - 'Introduction to Macronutrients': 'chapter20.md'
     - 'Introduction to Micronutrients': 'chapter21.md'
