@@ -1,0 +1,14 @@
+/* docs/stylesheets/extra.css */
+
+.md-nav--primary > .md-nav__list > .md-nav__item--section > .md-nav__link  {
+  color: #005A9C; /* A professional blue color */
+  font-weight: 700 !important;
+  font-size: 1.1em !important; /* Make them slightly larger */
+  letter-spacing: 0.5px;
+}
+
+.md-nav__title {
+  color: #005A9C !important; /* A nice blue color */
+  font-weight: 900 !important;
+  letter-spacing: 0.5px;
+}
