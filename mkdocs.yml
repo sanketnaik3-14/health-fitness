@@ -1,29 +1,29 @@
 site_name: Health & Fitness
 site_author: Sanket Naik
 nav:
-  - 'BASICS OF FOOD AND NUTRITION':
-    - 'Introduction to Health And Nutrition': 'index.md'
-    - 'Obesity And Lifestyle Disorders': 'chapter-2.md'
-    - 'Nutrition Pyramid': 'chapter-3.md'
-    - 'Calories and Energy Balance': 'chapter-4.md'
-    - 'Introduction to Macronutrients': 'chapter20.md'
-    - 'Introduction to Micronutrients': 'chapter21.md'
-    - 'Introduction to Quantified Nutrition': 'chapter22.md'
-    - 'Food Relationship and Your Health': 'chapter23.md'
-  - 'INTRODUCTION TO EXERCISE SCIENCE':
+ - 'BASICS OF FOOD AND NUTRITION':
+   - 'Introduction to Health And Nutrition': 'index.md'
+   - 'Obesity And Lifestyle Disorders': 'chapter-2.md'
+   - 'Nutrition Pyramid': 'chapter-3.md'
+   - 'Calories and Energy Balance': 'chapter-4.md'
+   - 'Introduction to Macronutrients': 'chapter20.md'
+   - 'Introduction to Micronutrients': 'chapter21.md'
+   - 'Introduction to Quantified Nutrition': 'chapter22.md'
+   - 'Food Relationship and Your Health': 'chapter23.md'
+ - 'INTRODUCTION TO EXERCISE SCIENCE':
     - 'Resistance Training': 'chapter40.md'
     - 'Training Techniques': 'chapter5.md'
     - 'Program Design': 'chapter19.md'
-  - 'INTRODUCTION TO RESISTANCE TRAINING':
+ - 'INTRODUCTION TO RESISTANCE TRAINING':
     - 'Dietary Approaches': 'chapter6.md'
     - 'Supplements': 'chapter7.md'
     - 'Fat Loss': 'chapter10.md'
     - 'Weight Management': 'chapter11.md'
     - 'Meal Planning': 'chapter12.md'
-  - 'BASICS OF ANATOMY AND PHYSIOLOGY':
+ - 'BASICS OF ANATOMY AND PHYSIOLOGY':
     - 'Lifestyle Disorders': 'chapter8.md'
     - 'Special Populations': 'chapter9.md'
-  - 'INTRODUCTION TO THE GYM':
+ - 'INTRODUCTION TO THE GYM':
     - 'Fitness Testing': 'chapter13.md'
     - 'Health Parameters': 'chapter14.md'
     - 'Client Assessment': 'chapter15.md'
@@ -45,9 +45,14 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to light mode
+
   features:
     - navigation.top
-    - navigation.sections
-    - navigation.expand
+    - navigation.collapse    # This enables the accordion/dropdown effect
+    - navigation.tracking    # This keeps the active link in view
+    - navigation.path      # This shows the breadcrumbs at the top
     - search.suggest
     - content.code.copy
+
+extra_css:
+  - stylesheets/extra.css
