@@ -33,13 +33,10 @@ nav:
     - 'Endocrine System': 'chapter-26.md'
     - 'Exercise Physiology': 'chapter-27.md'
  - 'INTRODUCTION TO THE GYM':
-    - 'Fitness Testing': 'chapter13.md'
-    - 'Health Parameters': 'chapter14.md'
-    - 'Client Assessment': 'chapter15.md'
-    - 'Goal Setting': 'chapter16.md'
-    - 'Program Implementation': 'chapter17.md'
-    - 'Exercise Sessions': 'chapter18.md'
-
+    - 'Introduction To Commonly used Fitness Equipment': 'chapter-28.md'
+    - 'Teaching Correct Techniques': 'chapter-29.md'
+    - 'Common Exercises': 'chapter-30.md'
+    - 'Injury Prevention and Management': 'chapter-31.md'
 
 theme:
   name: material
