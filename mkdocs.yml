@@ -37,6 +37,14 @@ nav:
     - 'Teaching Correct Techniques': 'chapter-29.md'
     - 'Common Exercises': 'chapter-30.md'
     - 'Injury Prevention and Management': 'chapter-31.md'
+ - 'BIOCHEMISTRY' :
+    - 'Basic Biology & Chemistry': 'chapter-32.md'
+    - 'Digestion & Digestion System': 'chapter-33.md'
+    - 'Carbohydrates': 'chapter-34.md'
+    - 'Lipids,Fats and Oils': 'chapter-34.md'
+    - 'Proteins': 'chapter-35.md'
+    - 'Energy Systems and Metabolism': 'chapter-36.md'
+    
 
 theme:
   name: material
